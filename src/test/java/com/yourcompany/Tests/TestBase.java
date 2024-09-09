@@ -121,6 +121,7 @@ public class TestBase  {
     protected void annotate(String text) {
         if (webDriver.get() != null) {
             ((JavascriptExecutor) webDriver.get()).executeScript("tb:test-context=" + text);
+            System.out.println("");
         }
     }
 }
