@@ -22,8 +22,7 @@ public class SimpleTest extends TestBase {
         driver.get("https://testingbot.com");
         Assert.assertEquals("TestingBot: Cross Browser Testing and Mobile App Testing", driver.getTitle());
         System.out.println("adding new code");
-     //  hjasjsjksahjj
-        //fdgfgjhhjhjnxnm
+        System.out.println("");
         
     }
 }
