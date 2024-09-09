@@ -122,6 +122,7 @@ public class TestBase  {
         if (webDriver.get() != null) {
             ((JavascriptExecutor) webDriver.get()).executeScript("tb:test-context=" + text);
             System.out.println("abcd");
+            System.out.println("");
         }
     }
 }
