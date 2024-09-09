@@ -1,15 +1,9 @@
 package com.yourcompany.Tests;
 
-import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.lang.reflect.Method;
-import java.net.MalformedURLException;
-import java.rmi.UnexpectedException;
 
 
 public class SimpleTest extends TestBase {
@@ -21,7 +15,6 @@ public class SimpleTest extends TestBase {
 
         driver.get("https://testingbot.com");
         Assert.assertEquals("TestingBot: Cross Browser Testing and Mobile App Testing", driver.getTitle());
-        System.out.println("adding new code");
         System.out.println("");
         System.out.println("");
         
