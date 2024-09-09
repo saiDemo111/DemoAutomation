@@ -72,4 +72,7 @@ public class UnitTestClassBase extends TestNgUnitTestBase {
 
     protected ThreadLocal<String> className = new ThreadLocal<String>();
     protected ThreadLocal<String> testName = new ThreadLocal<String>();
+    public UnitTestClassBase() {
+		// TODO Auto-generated constructor stub
+	}
 }
